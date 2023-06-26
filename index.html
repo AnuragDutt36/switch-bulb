@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Switch Bulb</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon"
         href="https://img.freepik.com/premium-vector/off-buttons-flat-style-toggle-switch-vector-illustration-isolated-background-shutdown-sign-business-concept_157943-2466.jpg?size=338&ext=jpg&ga=GA1.2.388520416.1671428687">
-    <style>
+    <!-- <style>
         .center {
             display: block;
             margin-left: auto;
@@ -17,19 +18,19 @@
 
         .btn {
             padding: 15px;
-            background-color: green;
+            background-color: white;
 
         }
 
         #bulb {
-            width: 25%;
+            width: 30%;
         }
-    </style>
+    </style> -->
 </head>
 
 <body style="background-color: black;">
     <img id="bulb" src="img/Bulb Off.jpg" alt="" class="center">
-    <button id="toggleBtn" class="center btn">TURN ON</button>
+    <button id="toggleBtn" class="button" style="vertical-align:middle"><span>TURN ON</span></button>
     <script>
         let btn = document.getElementById('toggleBtn')
         let bulb = document.getElementById('bulb')
